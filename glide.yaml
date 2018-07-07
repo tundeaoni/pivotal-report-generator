@@ -1,0 +1,13 @@
+package: github.com/tundeaoni/pivotal
+import:
+- package: github.com/mitchellh/go-homedir
+- package: github.com/olekukonko/tablewriter
+- package: github.com/davecgh/go-spew/spew
+- package: github.com/salsita/go-pivotaltracker
+  version: ^1.4.0
+  subpackages:
+  - v5/pivotal
+- package: github.com/spf13/cobra
+  version: ^0.0.2
+- package: github.com/spf13/viper
+  version: ^1.0.2
